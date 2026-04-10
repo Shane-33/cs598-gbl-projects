@@ -1,0 +1,82 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+*.cover
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Conda / virtualenv
+.conda/
+miniconda/
+miniforge/
+anaconda3/
+venv/
+.venv/
+env/
+
+# Large model / data artifacts
+*.ckpt
+*.pt
+*.pth
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.safetensors
+*.bin
+*.onnx
+
+# Logs and experiment tracking
+logs/
+*.log
+wandb/
+.wandb/
+lightning_logs/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Hands-on: large local data and generated outputs (not for git)
+hands_on_protein/data/
+hands_on_protein/outputs/
+
+# Foldseek / structure search databases (large)
+**/foldseek*/
+foldseek_db/
+
+# Results: track by default, ignore obvious temp files
+hands_on_protein/results/**/*.tmp
+hands_on_protein/results/**/*.temp
+hands_on_protein/results/**/.DS_Store
+hands_on_protein/results/**/*~
