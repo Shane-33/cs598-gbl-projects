@@ -1,4 +1,3 @@
-````markdown
 # CS598 GBL — Generative Modeling for Biomedicine & Life Sciences
 
 This repository is the workspace for my course projects in **CS598: Generative Modeling for Biomedicine & Life Sciences**.
