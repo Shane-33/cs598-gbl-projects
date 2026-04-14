@@ -69,7 +69,9 @@ build/
 
 # Hands-on: large local data and generated outputs (not for git)
 hands_on_protein/data/
-hands_on_protein/outputs/
+hands_on_protein/outputs/*
+!hands_on_protein/outputs/proteina_inference/
+!hands_on_protein/outputs/proteina_inference/**
 
 # Foldseek / structure search databases (large)
 **/foldseek*/
